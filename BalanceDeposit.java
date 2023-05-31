@@ -10,9 +10,9 @@ public class BalanceDeposit implements Runnable{
 
         @Override
         public void run() {
-            for (int i = 0; i < 100; i++) {
-                int amount = (int) (Math.random() * 20) + 1;
-                bankAccount.deposit(amount, i);
+            for (int i = 0; i < 30; i++) {
+               // int amount = (int) (Math.random() * 20) + 1;
+                bankAccount.deposit(i);
             }
         }
     }

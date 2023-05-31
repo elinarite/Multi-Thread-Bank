@@ -15,5 +15,6 @@ public class Main {
         thread1.start();
         thread2.start();
         thread3.start();
+
     }
 }
